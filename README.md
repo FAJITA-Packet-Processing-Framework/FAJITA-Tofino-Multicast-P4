@@ -7,7 +7,7 @@ You need a Tofino to build and run the `fajita_mcast` program. The default confi
 To build the code, use the following command:
 
 ```
-./p4_build.sh /path/to/fajita_mcast.p4
+/path/to/p4_build.sh /path/to/fajita_mcast.p4
 ```
 
 `fajita_mcast.p4` has been tested on SDE 9.8.0.
