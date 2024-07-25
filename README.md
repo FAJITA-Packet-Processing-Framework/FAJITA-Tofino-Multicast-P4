@@ -1,4 +1,4 @@
-# FAJITA 
+# FAJITA Tofino Multicaster
 
 This P4 program takes incoming packets, manipulates their source IP address and multicasts them towards the NF, in order to increase the offered load.
 
