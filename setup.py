@@ -93,7 +93,7 @@ def port_stats_timer():
     threading.Timer(1, port_stats_timer).start()
 
 
-script_path = os.path.join(os.environ['HOME'], "labs", "fajita_mcast")
+script_path = os.path.join(os.environ['HOME'], "labs", "FAJITA-Tofino-Multicast-P4")
 
 run_pd_rpc(os.path.join(script_path, "run_pd_rpc", "setup.py"))
 
